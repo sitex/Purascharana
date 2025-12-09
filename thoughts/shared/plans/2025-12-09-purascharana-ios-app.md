@@ -149,8 +149,8 @@ struct PurascharanaApp: App {
 ### Success Criteria:
 
 #### Automated Verification:
-- [ ] File exists at `Purascharana/PurascharanaApp.swift`
-- [ ] Contains `@main` attribute
+- [x] File exists at `Purascharana/PurascharanaApp.swift`
+- [x] Contains `@main` attribute
 
 #### Manual Verification:
 - [ ] N/A for this phase
