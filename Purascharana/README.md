@@ -30,5 +30,5 @@ iOS app for tracking mantra repetition circles (круги).
 
 ## Requirements
 
-- iOS 15.0+
+- iOS 16.0+
 - Xcode 14.0+
