@@ -59,6 +59,12 @@ struct ContentView: View {
                         }
                         .buttonStyle(.bordered)
                     }
+
+                    // Copy preview
+                    Text(counterState.copyStateString())
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                        .padding(.top, 8)
                 }
 
                 Spacer()
