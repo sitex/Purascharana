@@ -25,7 +25,10 @@ class CounterState: ObservableObject {
     }
 
     func copyStateString() -> String {
-        return "\(todayIncrement) \(pluralCircles(todayIncrement)) (\(totalCircles))"
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd"
+        let dateString = formatter.string(from: Date())
+        return "\(dateString) \(todayIncrement) \(pluralCircles(todayIncrement)) (\(totalCircles))"
     }
 
     private func pluralCircles(_ n: Int) -> String {
