@@ -475,8 +475,8 @@ iOS app for tracking mantra repetition circles (круги).
 ### Success Criteria:
 
 #### Automated Verification:
-- [ ] All 4 Swift files exist in correct locations
-- [ ] README.md exists with setup instructions
+- [x] All 4 Swift files exist in correct locations
+- [x] README.md exists with setup instructions
 
 #### Manual Verification:
 - [ ] Fresh Xcode project with these files compiles
