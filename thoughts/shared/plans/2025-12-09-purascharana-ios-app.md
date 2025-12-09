@@ -412,8 +412,8 @@ struct SettingsView: View {
 ### Success Criteria:
 
 #### Automated Verification:
-- [ ] File exists at `Purascharana/SettingsView.swift`
-- [ ] Contains Form, Section, TextField components
+- [x] File exists at `Purascharana/SettingsView.swift`
+- [x] Contains Form, Section, TextField components
 
 #### Manual Verification:
 - [ ] Current count pre-fills in text field
