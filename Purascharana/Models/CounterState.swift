@@ -25,7 +25,25 @@ class CounterState: ObservableObject {
     }
 
     func copyStateString() -> String {
-        return "\(todayIncrement) круга (\(totalCircles))"
+        return "\(todayIncrement) \(pluralCircles(todayIncrement)) (\(totalCircles))"
+    }
+
+    private func pluralCircles(_ n: Int) -> String {
+        let lastTwo = n % 100
+        let lastOne = n % 10
+
+        if lastTwo >= 11 && lastTwo <= 14 {
+            return "кругов"
+        }
+
+        switch lastOne {
+        case 1:
+            return "круг"
+        case 2, 3, 4:
+            return "круга"
+        default:
+            return "кругов"
+        }
     }
 
     var progress: Double {
